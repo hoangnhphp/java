@@ -12,6 +12,18 @@ public class Student {
         this.name = name;
     }
 
+//    private void setName(String name) {
+//        this.name = name;
+//    }
+//
+//    protected void setName(String name) {
+//        this.name = name;
+//    }
+//
+//    void setName(String name) {
+//        this.name = name;
+//    }
+
     public String getClassName() {
         return className;
     }
@@ -19,4 +31,16 @@ public class Student {
     public void setClassName(String className) {
         this.className = className;
     }
+
+//    protected void setClassName(String className) {
+//        this.className = className;
+//    }
+//
+//    private void setClassName(String className) {
+//        this.className = className;
+//    }
+//
+//    void setClassName(String className) {
+//        this.className = className;
+//    }
 }
