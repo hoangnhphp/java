@@ -18,6 +18,12 @@ public class Main {
         System.out.print("Tam giác đã được tô màu chưa (true/false): ");
         boolean filled = sc.nextBoolean();
 
+        Shape shape = new Shape(color, filled);
+
+        System.out.println("\nThông tin của shape:");
+        System.out.println("Màu sắc: " + shape.getColor());
+        System.out.println(shape.toString());
+
         Triangle triangle = new Triangle(side1, side2, side3);
         triangle.setColor(color);
         triangle.setFilled(filled);
