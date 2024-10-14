@@ -26,11 +26,11 @@ public class Square extends Shape implements Resizeable {
     }
 
     public double getArea() {
-        return width * width;
+        return Math.round(width * width);
     }
 
     public double getPerimeter() {
-        return width * 4;
+        return Math.round(width * 4);
     }
 
     @Override
@@ -47,6 +47,6 @@ public class Square extends Shape implements Resizeable {
 
     @Override
     public void resize(double percent) {
-        this.width *= (1 + percent / 100.0);
+        Math.round(width *= (1 + percent / 100.0));
     }
 }
