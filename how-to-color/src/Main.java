@@ -1,7 +1,7 @@
-import com.codegym.Circle;
-import com.codegym.Rectangle;
-import com.codegym.Shape;
-import com.codegym.Square;
+import Interface.Colorable;
+import com.codegym.*;
+
+import java.util.Objects;
 
 public class Main {
     public static void main(String[] args) {
