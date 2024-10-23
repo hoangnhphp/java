@@ -1,5 +1,3 @@
-import java.util.LinkedList;
-
 public class MyLinkedList {
     private Node head;
     private int numNodes;
@@ -136,5 +134,11 @@ public class MyLinkedList {
             index++;
         }
         return -1; // Nếu không tìm thấy
+    }
+
+    // Xóa toàn bộ danh sách
+    public void clear() {
+        head = null;
+        numNodes = 0;
     }
 }
