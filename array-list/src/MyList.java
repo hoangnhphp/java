@@ -103,6 +103,7 @@ public class MyList<E> {
         for (int i = 0; i < newElements.length; i++) {
             elements[i] = null;
         }
+        size = 0;
     }
 
     private Object[] grow() {

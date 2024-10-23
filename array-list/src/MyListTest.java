@@ -12,6 +12,7 @@ public class MyListTest {
         list.remove(3);
         list.add("F");
         list.add("G");
+        list.clear();
         System.out.println(list.size());
     }
 }
